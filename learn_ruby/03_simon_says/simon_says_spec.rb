@@ -36,7 +36,7 @@ describe "Simon says" do
 
   describe "repeat" do
     it "should repeat" do
-      expect(repeat("hello")).to eq("hello hello")
+      expect(repeat("hello")).to eq("hellohello")
     end
 
     # Wait a second! How can you make the "repeat" method
@@ -44,7 +44,7 @@ describe "Simon says" do
     #
     # Hint: *default values*
     it "should repeat a number of times" do
-      expect(repeat("hello", 3)).to eq("hello hello hello")
+      expect(repeat("hello", 3)).to eq("hellohellohello")
     end
   end
 
